@@ -8,7 +8,7 @@ import Widgets from './components/Widgets';
 import Login from './pages/Login';
 
 function App() {
-  const [{user}]= useStateValue();
+  const [{user}, dispatch]= useStateValue();
 
   return (
     //BEM naming covention
